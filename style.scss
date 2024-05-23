@@ -15,6 +15,7 @@ $orange: #ef6d58;
 $cream: #fdf0e9;
 $chocalate: #391400;
 $white:#fff;
+$black:#000;
 
 
 // overwrite css
@@ -36,7 +37,7 @@ $white:#fff;
 
   .costum-navbar {
     padding: 0;
-    background-color: #000 !important;
+    background-color: $black !important;
     position: fixed;
   }
   .nav_bg {
@@ -375,7 +376,7 @@ $white:#fff;
         width: 100%;
       }
       .nav-link.active {
-        color: #000;
+        color: $black;
       }
       .nav-link {
         color: $white;
