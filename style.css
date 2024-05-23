@@ -10,14 +10,6 @@ body {
 }
 
 /* Color variable */
-:root {
-  --purpel: #28293e;
-  --orange: #ef6d58;
-  --cream: #fdf0e9;
-  --chocalate: #391400;
-  --white:#fff;
-}
-
 :focus-visible {
   outline: unset;
 }
@@ -37,7 +29,7 @@ body {
   position: fixed;
 }
 .nav_sec .nav_bg {
-  background-color: var(--purpel);
+  background-color: #28293e;
 }
 .nav_sec .text-gray {
   color: #858792 !important;
@@ -52,7 +44,7 @@ body {
   padding-right: 40px;
   height: 65px;
   color: #fff;
-  border: 1px solid var(--purpel);
+  border: 1px solid #28293e;
   border-radius: 32.5px;
 }
 .nav_sec .nav_btn:hover {
@@ -67,7 +59,7 @@ body {
 
 /* banner section */
 .banner_sec {
-  background-color: var(--purpel);
+  background-color: #28293e;
   padding: 100px 0;
 }
 .banner_sec .banner_title h1 {
@@ -117,7 +109,7 @@ body {
   padding: 20px 15px;
   border-radius: 8px;
   border-radius: 8px;
-  background-color: var(--orange);
+  background-color: #ef6d58;
   color: #fff;
   font-size: 26px;
   font-weight: 900;
@@ -170,7 +162,7 @@ body {
 }
 .banner_sec .btn-orange {
   border-radius: 6px;
-  background: var(--orange);
+  background: #ef6d58;
   padding: 18px 40px;
   font-size: 14px;
   font-weight: 900;
@@ -187,7 +179,7 @@ body {
 }
 .banner_sec .btn-cream {
   border-radius: 6px;
-  background: var(--cream);
+  background: #fdf0e9;
   padding: 18px 40px;
   font-size: 14px;
   font-weight: 900;
@@ -227,7 +219,7 @@ body {
 .about_sec .about_info .about_head h2 {
   font-size: 56px;
   font-weight: 800;
-  color: var(--chocalate);
+  color: #391400;
   margin-bottom: 30px;
 }
 @media (max-width: 480px) {
@@ -238,12 +230,12 @@ body {
 .about_sec .about_info .about_head p {
   font-size: 20px;
   font-weight: 400;
-  color: var(--chocalate);
+  color: #391400;
   margin-bottom: 20px;
 }
 .about_sec .about_info .about_txt h4 {
   font-size: 22px;
-  color: var(--chocalate);
+  color: #391400;
   font-weight: 600;
 }
 .about_sec .about_info .about_txt p {
@@ -265,7 +257,7 @@ body {
 }
 .about_sec .about_info .about_btn .btn {
   border-radius: 6px;
-  background: var(--purpel);
+  background: #28293e;
   box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
   font-size: 16px;
   color: #fff;
@@ -278,7 +270,7 @@ body {
 .about_sec .resume_sec .resume_head h2 {
   font-size: 56px;
   font-weight: 800;
-  color: var(--chocalate);
+  color: #391400;
   margin-bottom: 30px;
 }
 @media (max-width: 480px) {
@@ -300,11 +292,11 @@ body {
 .about_sec .resume_sec .resume_bx .resume-details h3 {
   font-size: 25px;
   font-weight: 700;
-  color: var(--chocalate);
+  color: #391400;
 }
 .about_sec .resume_sec .resume_bx .resume-details .year_title {
   font-weight: 600;
-  color: var(--orange);
+  color: #ef6d58;
 }
 .about_sec .resume_sec .resume_bx .resume-details .exp_img img {
   width: 80px;
@@ -316,13 +308,13 @@ body {
 }
 
 .project_sec {
-  background-color: var(--purpel);
+  background-color: #28293e;
   padding: 60px 0;
 }
 .project_sec .project_title p {
   font-size: 16px;
   font-weight: 400;
-  color: var(--orange);
+  color: #ef6d58;
   letter-spacing: 3px;
   text-align: center;
 }
@@ -417,11 +409,11 @@ body {
 }
 
 .skill_sec {
-  background-color: var(--cream);
+  background-color: #fdf0e9;
   padding: 60px 0;
 }
 .skill_sec .skill_title h1 {
-  color: var(--chocalate);
+  color: #391400;
   font-size: 55px;
   font-weight: 800;
   text-align: center;
@@ -448,19 +440,24 @@ body {
 .skill_sec .skill_title .skill_bx h5 {
   font-size: 18px;
   font-weight: 600;
-  color: var(--orange);
+  color: #ef6d58;
   letter-spacing: 3px;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 0;
 }
+@media (max-width: 1400px) {
+  .skill_sec .skill_title .skill_bx h5 {
+    font-size: 14px;
+  }
+}
 
 .contact_sec {
-  background-color: var(--cream);
+  background-color: #fdf0e9;
   padding: 60px 0;
 }
 .contact_sec .contact_head h1 {
-  color: var(--chocalate);
+  color: #391400;
   font-size: 55px;
   font-weight: 800;
   text-align: center;
@@ -474,7 +471,7 @@ body {
 .contact_sec .contact_head p {
   font-size: 18px;
   font-weight: 600;
-  color: var(--orange);
+  color: #ef6d58;
   letter-spacing: 3px;
   text-align: center;
   margin-top: 10px;
@@ -501,7 +498,7 @@ body {
   font-size: 17px;
   font-weight: 500;
   padding: 0 30px;
-  color: var(--chocalate);
+  color: #391400;
 }
 @media (max-width: 992px) {
   .contact_sec .contact_menu ul li a {
@@ -521,13 +518,13 @@ body {
 .contact_sec .contact_info h2 {
   font-size: 22px;
   font-weight: 600;
-  color: var(--chocalate);
+  color: #391400;
 }
 .contact_sec .contact_info p {
   font-size: 17px;
   font-weight: 500;
   margin-bottom: 0;
-  color: var(--orange);
+  color: #ef6d58;
 }
 @media (max-width: 480px) {
   .contact_sec .contact_info p {
@@ -540,7 +537,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--orange);
+  background: #ef6d58;
   border-radius: 50px;
   padding: 20px;
 }/*# sourceMappingURL=style.css.map */

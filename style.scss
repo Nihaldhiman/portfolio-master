@@ -10,13 +10,12 @@ body {
 }
 
 /* Color variable */
-:root {
-  --purpel: #28293e;
-  --orange: #ef6d58;
-  --cream: #fdf0e9;
-  --chocalate: #391400;
-  --white:#fff;
-}
+$purpel: #28293e;
+$orange: #ef6d58;
+$cream: #fdf0e9;
+$chocalate: #391400;
+$white:#fff;
+
 
 // overwrite css
 :focus-visible {
@@ -41,7 +40,7 @@ body {
     position: fixed;
   }
   .nav_bg {
-    background-color: var(--purpel);
+    background-color: $purpel;
   }
 
   .text-gray {
@@ -50,7 +49,7 @@ body {
 
   .nav_title {
     font-size: 25px;
-    color: #fff !important;
+    color: $white !important;
     font-weight: 700;
   }
 
@@ -58,12 +57,12 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     height: 65px;
-    color: #fff;
-    border: 1px solid var(--purpel);
+    color: $white;
+    border: 1px solid $purpel;
     border-radius: 32.5px;
   }
   .nav_btn:hover {
-    color: #fff;
+    color: $white;
     background-color: #2e303d;
   }
 
@@ -77,12 +76,12 @@ body {
 /* banner section */
 
 .banner_sec {
-  background-color: var(--purpel);
+  background-color: $purpel;
   padding: 100px 0;
   .banner_title {
     h1 {
       font-weight: 800;
-      color: #fff;
+      color: $white;
       margin-bottom: 30px;
       @media (max-width: 992px) {
         font-size: 50px;
@@ -129,8 +128,8 @@ body {
       padding: 20px 15px;
       border-radius: 8px;
       border-radius: 8px;
-      background-color: var(--orange);
-      color: #fff;
+      background-color: $orange;
+      color: $white;
       font-size: 26px;
       font-weight: 900;
       margin-right: 11px;
@@ -163,7 +162,7 @@ body {
   .banner_txt p {
     font-size: 44px;
     font-weight: 500;
-    color: #fff;
+    color: $white;
     margin-bottom: 0;
 
     @media (max-width:480px) {
@@ -177,23 +176,23 @@ body {
   }
   .btn-orange {
     border-radius: 6px;
-    background: var(--orange);
+    background: $orange;
     padding: 18px 40px;
     font-size: 14px;
     font-weight: 900;
-    color: #fff;
+    color: $white;
     margin-right: 10px;
     @media (max-width: 992px) {
       padding: 18px 30px;
     }
 
     &:hover {
-      color: #fff;
+      color: $white;
     }
   }
   .btn-cream {
     border-radius: 6px;
-    background: var(--cream);
+    background: $cream;
     padding: 18px 40px;
     font-size: 14px;
     font-weight: 900;
@@ -237,7 +236,7 @@ body {
       h2 {
         font-size: 56px;
         font-weight: 800;
-        color: var(--chocalate);
+        color: $chocalate;
         margin-bottom: 30px;
         @media (max-width:480px) {
           font-size: 40px;
@@ -246,14 +245,14 @@ body {
       p {
         font-size: 20px;
         font-weight: 400;
-        color: var(--chocalate);
+        color: $chocalate;
         margin-bottom: 20px;
       }
     }
     .about_txt {
       h4 {
         font-size: 22px;
-        color: var(--chocalate);
+        color: $chocalate;
         font-weight: 600;
       }
       p {
@@ -265,7 +264,7 @@ body {
     }
     .about_shadow {
       border-radius: 6px;
-      background: #fff;
+      background: $white;
       box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
       padding: 20px 15px;
       display: flex;
@@ -280,10 +279,10 @@ body {
     .about_btn {
       .btn {
         border-radius: 6px;
-        background: var(--purpel);
+        background: $purpel;
         box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
         font-size: 16px;
-        color: #fff;
+        color: $white;
         font-weight: 600;
         margin-top: 20px;
       }
@@ -296,7 +295,7 @@ body {
       h2 {
         font-size: 56px;
         font-weight: 800;
-        color: var(--chocalate);
+        color: $chocalate;
         margin-bottom: 30px;
         @media (max-width:480px) {
           font-size: 40px;
@@ -317,18 +316,18 @@ body {
         h3 {
           font-size: 25px;
           font-weight: 700;
-          color: var(--chocalate);
+          color: $chocalate;
         }
         .year_title {
           font-weight: 600;
-          color: var(--orange);
+          color: $orange;
         }
         .exp_img img {
           width: 80px;
           width: 80px;
           height: 80px;
           object-fit: contain;
-          background-color: #fff;
+          background-color: $white;
         }
       }
     }
@@ -338,21 +337,21 @@ body {
 // Project section
 
 .project_sec {
-  background-color: var(--purpel);
+  background-color: $purpel;
   padding: 60px 0;
  
   .project_title {
     p {
       font-size: 16px;
       font-weight: 400;
-      color: var(--orange);
+      color: $orange;
       letter-spacing: 3px;
       text-align: center;
     }
     h1 {
       font-size: 56px;
       font-weight: 800;
-      color: #fff;
+      color: $white;
       margin-bottom: 30px;
       text-align: center;
 
@@ -379,7 +378,7 @@ body {
         color: #000;
       }
       .nav-link {
-        color: #fff;
+        color: $white;
         border: 0;
         border-radius: 18px;
         font-weight: 500;
@@ -444,12 +443,12 @@ body {
 // skill sec
 
 .skill_sec {
-  background-color: var(--cream);
+  background-color: $cream;
   padding: 60px 0;
 
   .skill_title {
     h1 {
-      color: var(--chocalate);
+      color: $chocalate;
       font-size: 55px;
       font-weight: 800;
       text-align: center;
@@ -461,7 +460,7 @@ body {
     .skill_bx {
       border-radius: 10px;
       border: 1px solid #f3d1bf;
-      background: #fff;
+      background: $white;
       box-shadow: 0px 32px 64px 0px rgba(57, 20, 0, 0.04);
       padding: 15px;
       img {
@@ -472,11 +471,15 @@ body {
       h5 {
         font-size: 18px;
         font-weight: 600;
-        color: var(--orange);
+        color: $orange;
         letter-spacing: 3px;
         text-align: center;
         margin-top: 10px;
         margin-bottom: 0;
+
+        @media (max-width:1400px) {
+          font-size: 14px;
+        }
       }
     }
   }
@@ -485,12 +488,12 @@ body {
 // contact us
 
 .contact_sec {
-  background-color: var(--cream);
+  background-color: $cream;
   padding: 60px 0;
 
   .contact_head {
     h1 {
-      color: var(--chocalate);
+      color: $chocalate;
       font-size: 55px;
       font-weight: 800;
       text-align: center;
@@ -503,7 +506,7 @@ body {
     p {
       font-size: 18px;
       font-weight: 600;
-      color: var(--orange);
+      color: $orange;
       letter-spacing: 3px;
       text-align: center;
       margin-top: 10px;
@@ -527,7 +530,7 @@ body {
           font-size: 17px;
           font-weight: 500;
           padding: 0 30px;
-          color: var(--chocalate);
+          color: $chocalate;
 
           @media (max-width:992px) {
             font-size: 15px;
@@ -549,14 +552,14 @@ body {
     h2 {
       font-size: 22px;
       font-weight: 600;
-      color: var(--chocalate);
+      color: $chocalate;
     }
 
     p {
       font-size: 17px;
       font-weight: 500;
       margin-bottom: 0;
-      color: var(--orange);
+      color: $orange;
       @media (max-width:480px) {
         font-size: 13px;
       }
@@ -568,7 +571,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      background: var(--orange);
+      background: $orange;
       border-radius: 50px;
       padding: 20px;
     }
